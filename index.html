@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Turan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Turan — birlik, kültür, güç." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Intro / Splash экран -->
+  <div id="intro" class="intro">
+    <div class="intro-logo-wrapper">
+      <img src="assets/turan-emblem.png" alt="Turan Emblem" class="intro-logo" />
+      <h1 class="intro-title">TURAN</h1>
+      <p class="intro-subtitle">Асман Рахманов</p>
+    </div>
+  </div>
+
+  <!-- Основной сайт -->
+  <header id="main-header" class="main-header hidden">
+    <div class="logo-small">
+      <img src="assets/turan-emblem.png" alt="Turan Emblem" />
+      <span class="logo-text">TURAN</span>
+    </div>
+    <nav class="main-nav">
+      <a href="#status">Статусы</a>
+      <a href="#events">Мероприятия</a>
+      <a href="#news">Новости</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <main id="main-content" class="main-content hidden">
+    <!-- Статусы председателя / Турана -->
+    <section id="status" class="section">
+      <h2>Статусы председателя</h2>
+      <div id="status-list" class="card-list">
+        <!-- наполняется из script.js -->
+      </div>
+    </section>
+
+    <!-- Предстоящие мероприятия -->
+    <section id="events" class="section">
+      <h2>Предстоящие мероприятия</h2>
+      <div id="events-list" class="card-list">
+        <!-- наполняется из script.js -->
+      </div>
+    </section>
+
+    <!-- Лента новостей -->
+    <section id="news" class="section">
+      <h2>Лента новостей</h2>
+      <div id="news-list" class="news-list">
+        <!-- наполняется из script.js -->
+      </div>
+    </section>
+
+    <!-- Контакты / футер -->
+    <section id="contact" class="section">
+      <h2>Контакты</h2>
+      <p>Turan Sosyal Merkezi</p>
+      <p>E-posta: <a href="mailto:info@turan.org">info@turan.org</a></p>
+      <p>Instagram: @turan</p>
+    </section>
+  </main>
+
+  <footer class="footer hidden" id="footer">
+    <p>© <span id="year"></span> Turan. Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
